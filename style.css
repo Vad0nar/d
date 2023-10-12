@@ -1,0 +1,197 @@
+header {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Уберите стилизацию ul и li, которая не требуется */
+/* .li {
+    padding: 0;
+    list-style-type: none;
+} */
+
+
+nav li {
+    margin-right: 10px;
+    width: 400px;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 10px;
+    /* Добавляем внутренний отступ для контента внутри li */
+}
+
+.li1 {
+    border: 1px solid #ccc;
+    color: white;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+
+    /* Отменяет подчеркивание */
+}
+
+.search {
+    margin-left: 650px;
+    height: 35px;
+    width: 245px;
+}
+
+.search_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_btn {
+    display: flex;
+    align-items: center;
+}
+
+.hero_img {
+    max-width: 100%;
+}
+
+.span {
+    display: flex;
+    flex-direction: column;
+    font-style: arial;
+    font-size: 15px;
+    color: gray;
+}
+
+.p1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 75px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid black;
+    background-color: black;
+    font-size: 25px;
+}
+
+.items {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.kolo {
+    margin: 10px;
+}
+
+.items_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.conteiner{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    
+}
+.clock{
+    margin-top: 165px;
+    height: 103px;
+    width: 103px;
+    margin-left: 200px;
+}
+.conteiner_text{
+    margin-top: 160px;
+    font: 36px PT Serif;
+    display: flex;
+    flex-direction: column;
+    color: gray;
+
+}
+.conteiner_texts{
+    padding-left: 20px;
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    font: 36px PT Serif;
+}
+    
+  .Inter{
+    height: 103px;
+    width: 103px;
+    margin-top: 165px;
+    margin-left:350px;
+
+  }
+  .link_conteiners{
+    text-decoration:underline;
+    margin-left:220px;
+  }
+  .conteiner_text2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 205px;
+    margin-top: -50px;
+    
+  }
+    .exam{
+        max-width: 100%;
+    }
+    .conteiners{
+        background-image: url("дом.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 700px;
+    margin-top: 100px;
+    }
+    .conteiners_text{
+        color: white;
+        size: 48px;
+        font:PT Serif;
+        width: 180px;
+        margin-left: 970px;
+        padding-top: 80px;
+
+    }
+    .conteiners_btn{
+        background-color: black;
+        color: white;
+        height: 30px;
+        margin-left: 1050px;
+        
+    }
+    .conteiner1{
+        display: flex;
+        width: 100%;
+        height: 801px;
+        flex-direction: column;
+        margin-top: 50px;
+        background-color: black;
+    }
+    .conteiner2{
+        
+        margin-top: 50px;
+        margin-left: 75px;
+        border: 1px solid purple;
+        width: 297px;
+        height: 400px;
+
+    }
+    .conteiner2_text{
+        color: white;
+        
+        top: 50%;
+        left: 50%;
+        
+       
+    }
